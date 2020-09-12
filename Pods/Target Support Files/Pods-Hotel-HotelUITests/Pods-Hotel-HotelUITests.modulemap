@@ -1,0 +1,6 @@
+framework module Pods_Hotel_HotelUITests {
+  umbrella header "Pods-Hotel-HotelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

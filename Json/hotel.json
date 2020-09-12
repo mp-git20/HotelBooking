@@ -1,0 +1,7 @@
+[
+    {"hotelId":"1","hotelName":"Marrioit Exotica", "cost":"$100 per night two Adults", "type":"Excellent", "image":"https://cache.marriott.com/marriottassets/marriott/GOIWH/goiwh-exterior-2324-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*"},
+    {"hotelId":"2","hotelName":"Octave Enclave", "cost":"$80 per night two Adults", "type":"Very Good", "image":"https://www.escape2.ie/cdn/macrosites/ritz-carlton-key-biscayne2269_201411141144431411.jpg"},
+    {"hotelId":"3","hotelName":"Royal Inn", "cost":"$120 per night two Adults", "type":"Excellent", "image":"https://themeydanhotel.com/sites/default/files/2019-02/The_Meydan_Hotel_Exterior_2.jpg"},
+    {"hotelId":"4","hotelName":"Daffodil Delight", "cost":"$90 per night two Adults", "type":"Good", "image":"https://cf.bstatic.com/images/hotel/max1024x768/172/172061203.jpg"},
+    {"hotelId":"5","hotelName":"Royal Orchid Hotel", "cost":"$100 per night two Adults", "type":"Excellent", "image":"https://www.steigenberger.com/cache/images/SHR_Dubai_Keyvisuals_0055b3423b62425e55338d-1-1-1-1-1.jpg"}
+]
