@@ -53,9 +53,11 @@ class HotelDetailsViewController: UIViewController {
         if poolbtn.isSelected == true {
             poolbtn.isSelected = false
             totalCost = totalCost - 10
+            poolbtn.backgroundColor = .clear
         }else {
             poolbtn.isSelected = true
             totalCost = totalCost + 10
+            poolbtn.backgroundColor = .lightGray
         }
         
         price.text = "$\(totalCost) per night two Adults"
@@ -65,9 +67,11 @@ class HotelDetailsViewController: UIViewController {
         if internetbtn.isSelected == true {
             internetbtn.isSelected = false
             totalCost = totalCost - 20
+            internetbtn.backgroundColor = .clear
         }else {
             internetbtn.isSelected = true
             totalCost = totalCost + 20
+            internetbtn.backgroundColor = .lightGray
         }
         
         price.text = "$\(totalCost) per night two Adults"
@@ -77,9 +81,11 @@ class HotelDetailsViewController: UIViewController {
         if brkfstbtn.isSelected == true {
             brkfstbtn.isSelected = false
             totalCost = totalCost - 25
+            brkfstbtn.backgroundColor = .clear
         }else {
             brkfstbtn.isSelected = true
             totalCost = totalCost + 25
+            brkfstbtn.backgroundColor = .lightGray
         }
         
         price.text = "$\(totalCost) per night two Adults"
@@ -88,9 +94,11 @@ class HotelDetailsViewController: UIViewController {
         if gymbtn.isSelected == true {
             gymbtn.isSelected = false
             totalCost = totalCost - 40
+            gymbtn.backgroundColor = .clear
         }else {
             gymbtn.isSelected = true
             totalCost = totalCost + 40
+            gymbtn.backgroundColor = .lightGray
         }
         
         price.text = "$\(totalCost) per night two Adults"
@@ -99,9 +107,11 @@ class HotelDetailsViewController: UIViewController {
         if spabtn.isSelected == true {
             spabtn.isSelected = false
             totalCost = totalCost - 35
+            spabtn.backgroundColor = .clear
         }else {
             spabtn.isSelected = true
             totalCost = totalCost + 35
+            spabtn.backgroundColor = .lightGray
         }
         
         price.text = "$\(totalCost) per night two Adults"
@@ -110,9 +120,11 @@ class HotelDetailsViewController: UIViewController {
         if hottubbtn.isSelected == true {
             hottubbtn.isSelected = false
             totalCost = totalCost - 50
+            hottubbtn.backgroundColor = .clear
         }else {
             hottubbtn.isSelected = true
             totalCost = totalCost + 50
+            hottubbtn.backgroundColor = .lightGray
         }
         
         price.text = "$\(totalCost) per night two Adults"
