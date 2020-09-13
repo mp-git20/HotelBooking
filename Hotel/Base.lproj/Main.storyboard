@@ -425,6 +425,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nodata" translatesAutoresizingMaskIntoConstraints="NO" id="s5e-zM-XQJ">
+                                <rect key="frame" x="53" y="264" width="307" height="315"/>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="275" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Da-0QQ">
                                 <rect key="frame" x="0.0" y="56" width="414" height="752"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -448,7 +451,11 @@
                         <constraints>
                             <constraint firstItem="Ave-Qo-Blh" firstAttribute="bottom" secondItem="6K2-Da-0QQ" secondAttribute="bottom" id="4V6-U2-v4p"/>
                             <constraint firstItem="6K2-Da-0QQ" firstAttribute="top" secondItem="Ave-Qo-Blh" secondAttribute="top" id="5LD-pZ-W1s"/>
+                            <constraint firstItem="Ave-Qo-Blh" firstAttribute="bottom" secondItem="s5e-zM-XQJ" secondAttribute="bottom" constant="229" id="8S0-Cg-3Wg"/>
+                            <constraint firstItem="Ave-Qo-Blh" firstAttribute="trailing" secondItem="s5e-zM-XQJ" secondAttribute="trailing" constant="54" id="CSk-uH-un8"/>
                             <constraint firstItem="Ave-Qo-Blh" firstAttribute="trailing" secondItem="6K2-Da-0QQ" secondAttribute="trailing" id="HVa-Y9-DLx"/>
+                            <constraint firstItem="s5e-zM-XQJ" firstAttribute="leading" secondItem="Ave-Qo-Blh" secondAttribute="leading" constant="53" id="IQK-F6-Fbi"/>
+                            <constraint firstItem="s5e-zM-XQJ" firstAttribute="top" secondItem="Ave-Qo-Blh" secondAttribute="top" constant="208" id="pwP-Qp-ZrQ"/>
                             <constraint firstItem="6K2-Da-0QQ" firstAttribute="leading" secondItem="Ave-Qo-Blh" secondAttribute="leading" id="xL8-ZL-g3D"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ave-Qo-Blh"/>
@@ -466,7 +473,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5E0-fg-OwE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="773"/>
+            <point key="canvasLocation" x="844.92753623188412" y="772.76785714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="X1w-H4-NO5">
@@ -499,6 +506,7 @@
         <image name="hotelIcon" width="512" height="512"/>
         <image name="internet" width="20" height="22"/>
         <image name="leftarrow" width="30" height="30"/>
+        <image name="nodata" width="800" height="600"/>
         <image name="pool" width="20" height="20"/>
         <image name="rating" width="256" height="256"/>
         <image name="spa" width="20" height="14"/>

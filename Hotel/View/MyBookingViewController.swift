@@ -27,8 +27,7 @@ class MyBookingViewController: UIViewController ,UITableViewDelegate, UITableVie
             if let decoded = try? JSONDecoder().decode([BookedHotel].self, from: data) {
                
                 bookedHotel.append(contentsOf: decoded)
-               
-                
+              
                 
             
             }
@@ -41,7 +40,14 @@ class MyBookingViewController: UIViewController ,UITableViewDelegate, UITableVie
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.tableView.reloadData()
+        if bookedHotel.count > 0{
+            tableView.isHidden = false
+            tableView.reloadData()
+        }
+        else{
+            tableView.isHidden = true
+        }
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
