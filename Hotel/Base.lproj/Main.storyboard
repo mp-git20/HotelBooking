@@ -202,10 +202,10 @@
                                     <constraint firstAttribute="height" constant="289" id="uEe-il-fFL"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CW0-Ni-q2Z">
-                                <rect key="frame" x="20" y="373" width="363" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CW0-Ni-q2Z">
+                                <rect key="frame" x="20" y="353" width="381" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Is1-wZ-Mkj"/>
+                                    <constraint firstAttribute="height" constant="41" id="Is1-wZ-Mkj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="25"/>
                                 <color key="textColor" red="0.16078431369999999" green="0.16078431369999999" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -324,12 +324,12 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFe-CU-wnU">
-                                <rect key="frame" x="20" y="632" width="374" height="63"/>
+                                <rect key="frame" x="20" y="632" width="374" height="92"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="lbA-Qw-v4W"/>
+                                    <constraint firstAttribute="height" constant="92" id="lbA-Qw-v4W"/>
                                 </constraints>
                                 <string key="text">The rooms of Hotel are extremely comfortable, equipped with warm and precious materials and personalized with authentic antiques expertly chosen one by one in the many markets.</string>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -357,10 +357,10 @@
                             <constraint firstItem="eSm-q9-nIv" firstAttribute="leading" secondItem="3be-1w-Zv6" secondAttribute="trailing" constant="8" id="JOc-3Q-NPN"/>
                             <constraint firstItem="eSm-q9-nIv" firstAttribute="top" secondItem="CW0-Ni-q2Z" secondAttribute="bottom" constant="7" id="OXH-Hp-iDV"/>
                             <constraint firstItem="svg-Uj-ee9" firstAttribute="trailing" secondItem="whd-yE-Gba" secondAttribute="trailing" id="PV3-iT-fDN"/>
-                            <constraint firstItem="CW0-Ni-q2Z" firstAttribute="top" secondItem="svg-Uj-ee9" secondAttribute="bottom" constant="28" id="QAc-ty-GtA"/>
+                            <constraint firstItem="CW0-Ni-q2Z" firstAttribute="top" secondItem="svg-Uj-ee9" secondAttribute="bottom" constant="8" id="QAc-ty-GtA"/>
                             <constraint firstItem="3be-1w-Zv6" firstAttribute="leading" secondItem="whd-yE-Gba" secondAttribute="leading" constant="20" id="S5c-aG-iIG"/>
                             <constraint firstItem="whd-yE-Gba" firstAttribute="trailing" secondItem="bQW-en-HLb" secondAttribute="trailing" constant="8" id="Swy-qk-Ntm"/>
-                            <constraint firstItem="whd-yE-Gba" firstAttribute="trailing" secondItem="CW0-Ni-q2Z" secondAttribute="trailing" constant="31" id="Tnu-tE-Sij"/>
+                            <constraint firstItem="whd-yE-Gba" firstAttribute="trailing" secondItem="CW0-Ni-q2Z" secondAttribute="trailing" constant="13" id="Tnu-tE-Sij"/>
                             <constraint firstItem="bQW-en-HLb" firstAttribute="leading" secondItem="whd-yE-Gba" secondAttribute="leading" constant="20" id="UgJ-nl-cY4"/>
                             <constraint firstItem="38Q-vw-GGJ" firstAttribute="leading" secondItem="whd-yE-Gba" secondAttribute="leading" constant="70" id="W6o-Gd-75X"/>
                             <constraint firstItem="NFe-CU-wnU" firstAttribute="top" secondItem="cLS-ha-Wrl" secondAttribute="bottom" constant="13" id="cz6-y9-bN9"/>
